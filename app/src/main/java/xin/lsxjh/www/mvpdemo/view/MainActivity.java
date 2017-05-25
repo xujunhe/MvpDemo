@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements ILoginView {
 
         final ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         User user = new User();
-        user.setName("我是绑定的数据");
+        user.setName("xxx");
         binding.setUser(user);
 
         btnLogin = binding.btnLogin;
